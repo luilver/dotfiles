@@ -1,0 +1,27 @@
+[user]
+  name = Luilver Garces
+  email = garces@luilver.com
+[alias]
+  k = !gitk
+  ci = commit
+  br = branch
+  co = checkout
+  chl = !git-changelog
+  st = status
+  up = "!git remote update -p; git merge --ff-only @{u}"
+  lg = log -p
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all --date local
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  slog  = log --graph --all --topo-order --pretty='format:%h %ai %s%d (%an)'
+[color]
+  ui = auto
+[rerere]
+  enabled = true
+[core]
+  excludesfile = /Users/luilver/.gitignore
+[push]
+  autoSetupRemote
+[url "git@gitlab.mx.com:"]
+  insteadOf = https://gitlab.mx.com/
+[extensions]
+  objectFormat = sha256
