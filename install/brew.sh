@@ -19,6 +19,7 @@ apps=(
     git
     gnu-sed
     grep
+    gpg
     hub
     httpie
     imagemagick
