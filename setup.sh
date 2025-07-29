@@ -10,6 +10,7 @@ EXTRA_DIR="$HOME/.extra"
 
 # Bunch of symlinks
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
+ln -sfv "$DOTFILES_DIR/gem/.gemrc" ~
 
 # Package managers & packages
 . "$DOTFILES_DIR/install/brew.sh"
