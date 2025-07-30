@@ -11,6 +11,7 @@ apps=(
     byobu
     # bash-completion2
     cmake
+    colima
     coreutils
     dockutil
     ffmpeg
