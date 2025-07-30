@@ -14,6 +14,7 @@ apps=(
     cmake
     colima
     coreutils
+    docker
     dockutil
     ffmpeg
     flyctl
