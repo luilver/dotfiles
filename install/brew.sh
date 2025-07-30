@@ -8,6 +8,7 @@ brew upgrade
 
 apps=(
     ag
+    bruno
     byobu
     # bash-completion2
     cmake
