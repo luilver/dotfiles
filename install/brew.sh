@@ -14,7 +14,7 @@ apps=(
     coreutils
     dockutil
     ffmpeg
-    # fasd
+    flyctl
     # gifsicle
     git
     gnu-sed
