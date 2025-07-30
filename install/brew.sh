@@ -28,6 +28,7 @@ apps=(
     imagemagick
     jq
     # mackup
+    openapi-generator
     peco
     psgrep
     python
