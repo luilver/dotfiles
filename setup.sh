@@ -15,11 +15,10 @@ ln -sfv "$DOTFILES_DIR/gem/.gemrc" ~
 # Package managers & packages
 if grep -qi "ubuntu" /etc/os-release; then
     echo "Running on Ubuntu"
-    # Now check if GUI is available
-    if [ -n "$DISPLAY" ] || systemctl get-default | grep -q graphical.target; then
-        . "$DOTFILES_DIR/install/brew.sh"
-    else
+    if [ -n "$DISPLAY" ]; then
         . "$DOTFILES_DIR/install/brew-cli.sh"
+    else
+        . "$DOTFILES_DIR/install/brew.sh"
     fi
 fi
 
