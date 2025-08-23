@@ -20,7 +20,7 @@ if grep -qi "ubuntu" /etc/os-release; then
         . "$DOTFILES_DIR/install/brew.sh"
     else
 	echo "	on CLI mode"
-        . "$DOTFILES_DIR/install/brew-cli.sh"
+        . "$DOTFILES_DIR/install/vps.sh"
     fi
 fi
 
