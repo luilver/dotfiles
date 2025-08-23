@@ -19,6 +19,7 @@ if grep -qi "ubuntu" /etc/os-release; then
 	echo "	on CLI mode"
         . "$DOTFILES_DIR/install/brew-cli.sh"
     else
+	echo "	on GUI mode"
         . "$DOTFILES_DIR/install/brew.sh"
     fi
 fi
