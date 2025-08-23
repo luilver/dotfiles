@@ -30,4 +30,4 @@ apps=(
     wget
 )
 
-apt install "${apps[@]}"
+sudo apt install "${apps[@]}"
