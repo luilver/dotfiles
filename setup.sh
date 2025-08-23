@@ -16,6 +16,7 @@ ln -sfv "$DOTFILES_DIR/gem/.gemrc" ~
 if grep -qi "ubuntu" /etc/os-release; then
     echo "Running on Ubuntu"
     if [ -n "$DISPLAY" ]; then
+	echo "	on CLI mode"
         . "$DOTFILES_DIR/install/brew-cli.sh"
     else
         . "$DOTFILES_DIR/install/brew.sh"
