@@ -10,7 +10,6 @@ apps=(
     ag
     bruno
     byobu
-    # bash-completion2
     cmake
     colima
     coreutils
@@ -18,7 +17,6 @@ apps=(
     dockutil
     ffmpeg
     flyctl
-    # gifsicle
     git
     gnu-sed
     grep
@@ -27,7 +25,6 @@ apps=(
     httpie
     imagemagick
     jq
-    # mackup
     openapi-generator
     peco
     psgrep
