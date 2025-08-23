@@ -13,10 +13,20 @@ ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/gem/.gemrc" ~
 
 # Package managers & packages
-. "$DOTFILES_DIR/install/brew.sh"
+if grep -qi "ubuntu" /etc/os-release; then
+    echo "Running on Ubuntu"
+    # Now check if GUI is available
+    if [ -n "$DISPLAY" ] || systemctl get-default | grep -q graphical.target; then
+        . "$DOTFILES_DIR/install/brew.sh"
+    else
+        . "$DOTFILES_DIR/install/brew-cli.sh"
+    fi
+fi
 
 # Cool stuff
 if [ "$(uname)" == "Darwin" ]; then
+    echo "Running on Darwin"
+    . "$DOTFILES_DIR/install/brew.sh"
     . "$DOTFILES_DIR/install/brew-cask.sh"
 fi
 

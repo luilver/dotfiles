@@ -1,0 +1,41 @@
+# Install Homebrew
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew update
+brew upgrade
+
+# Install packages
+
+apps=(
+    ag
+    bruno-cli
+    byobu
+    cmake
+    colima
+    coreutils
+    docker
+    dockutil
+    ffmpeg
+    flyctl
+    git
+    gnu-sed
+    grep
+    gpg
+    hub
+    httpie
+    imagemagick
+    jq
+    openapi-generator
+    peco
+    psgrep
+    python
+    shellcheck
+    ssh-copy-id
+    tree
+    neovim
+    volta
+    wget
+)
+
+brew install "${apps[@]}"
+
