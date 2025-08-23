@@ -1,33 +1,27 @@
 # Install packages
 
 apps=(
-    ag
-	build-essential
-    bruno
+	apt-transport-https
+    build-essential
+    bruno-cli
+	ca-certificates
+	curl
     cmake
-    colima
-    docker
-    dockutil
     ffmpeg
-    flyctl
     git
-    gnu-sed
-    grep
     gpg
     hub
     httpie
     imagemagick
     jq
-    openapi-generator
     peco
     psgrep
-    python
     shellcheck
-    ssh-copy-id
+	software-properties-common
     tree
     neovim
-    volta
     wget
 )
 
-sudo apt install "${apps[@]}"
+sudo apt install -y "${apps[@]}"
+
