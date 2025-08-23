@@ -16,9 +16,9 @@ ln -sfv "$DOTFILES_DIR/gem/.gemrc" ~
 . "$DOTFILES_DIR/install/brew.sh"
 
 # Cool stuff
-# if [ "$(uname)" == "Darwin" ]; then
-#     . "$DOTFILES_DIR/install/brew-cask.sh"
-# fi
+if [ "$(uname)" == "Darwin" ]; then
+    . "$DOTFILES_DIR/install/brew-cask.sh"
+fi
 
 # Install extra stuff
 if [ -d "$EXTRA_DIR" -a -f "$EXTRA_DIR/install.sh" ]; then
