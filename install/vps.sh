@@ -1,11 +1,10 @@
 # Install packages
 
 apps=(
-	apt-transport-https
+    apt-transport-https
     build-essential
-    bruno-cli
-	ca-certificates
-	curl
+    ca-certificates
+    curl
     cmake
     ffmpeg
     git
@@ -15,9 +14,8 @@ apps=(
     imagemagick
     jq
     peco
-    psgrep
     shellcheck
-	software-properties-common
+    software-properties-common
     tree
     neovim
     wget
