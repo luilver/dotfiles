@@ -14,7 +14,6 @@ apps=(
     colima
     coreutils
     docker
-    dockutil
     ffmpeg
     flyctl
     git
