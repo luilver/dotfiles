@@ -8,7 +8,7 @@ brew upgrade
 
 apps=(
     ag
-    bruno
+    bruno-cli
     byobu
     cmake
     colima
