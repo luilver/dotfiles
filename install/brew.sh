@@ -25,6 +25,7 @@ apps=(
     httpie
     imagemagick
     jq
+    node
     openapi-generator
     peco
     psgrep
@@ -35,6 +36,7 @@ apps=(
     neovim
     volta
     wget
+    yarn
 )
 
 brew install "${apps[@]}"

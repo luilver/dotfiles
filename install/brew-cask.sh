@@ -8,6 +8,7 @@ brew upgrade
 
 cask_apps=(
     mactex
+    ngrok
 )
 
 brew install --cask "${cask_apps[0]}"
