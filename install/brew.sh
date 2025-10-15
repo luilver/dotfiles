@@ -11,6 +11,7 @@ apps=(
     bruno-cli
     byobu
     cmake
+    cloudflared
     colima
     coreutils
     docker
@@ -18,6 +19,7 @@ apps=(
     flyctl
     git
     gnu-sed
+    go
     grep
     gpg
     hub
