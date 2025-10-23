@@ -7,6 +7,7 @@ brew upgrade
 # Install packages
 
 cask_apps=(
+    google-cloud-sdk
     mactex
     ngrok
 )
