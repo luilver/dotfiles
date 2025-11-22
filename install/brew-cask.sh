@@ -7,6 +7,7 @@ brew upgrade
 # Install packages
 
 cask_apps=(
+    dotnet-sdk@8
     google-cloud-sdk
     mactex
     ngrok
