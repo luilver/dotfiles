@@ -11,6 +11,7 @@ cask_apps=(
     google-cloud-sdk
     mactex
     ngrok
+    warp
 )
 
 brew install --cask "${cask_apps[0]}"
