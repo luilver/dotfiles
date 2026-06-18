@@ -11,6 +11,7 @@ apps=(
     bruno-cli
     byobu
     cmake
+    cmux
     cloudflared
     colima
     coreutils

@@ -25,3 +25,9 @@
   insteadOf = https://gitlab.mx.com/
 [extensions]
   objectFormat = sha256
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/local/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/local/bin/gh auth git-credential
